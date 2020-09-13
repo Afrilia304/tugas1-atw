@@ -63,3 +63,42 @@ class Angsa extends Hewan {
         return "kwaaak";
     }
 }
+
+$chimo = new Kucing;
+$chimo->jumlah_kaki = 4;
+echo "Chimo adalah Kucing <br>";
+echo "Punya kaki sebanyak :".$chimo->jumlah_kaki."<br>";
+echo $chimo->bisa_terbang."<br>";
+echo "Suaranya : ".$chimo->bersuara()."<br>";
+
+echo "<hr>";
+
+$doggy = new Anjing;
+$doggy->jumlah_kaki = 4;
+echo "Doggy adalah Anjing <br>";
+echo "Punya kaki sebanyak :".$doggy->jumlah_kaki."<br>";
+echo $doggy->bisa_terbang."<br>";
+echo "Suaranya : ".$doggy->bersuara()."<br>";
+
+echo "<hr>";
+
+$jojo = new Elang;
+$jojo->jumlah_kaki = 2;
+echo "jojo adalah Elang <br>";
+echo "Punya kaki sebanyak :".$jojo->jumlah_kaki."<br>";
+echo $jojo->bisa_terbang."<br>";
+echo "Suaranya : ".$jojo->bersuara()."<br>";
+
+echo "<hr>";
+
+$shasa = new Angsa;
+$shasa->jumlah_kaki = 2;
+echo "Shasa adalah Angsa <br>";
+echo "Punya kaki sebanyak :".$shasa->jumlah_kaki."<br>";
+echo $shasa->bisa_terbang."<br>";
+echo "Suaranya : ".$shasa->bersuara()."<br>";
+
+echo "<hr>";
+
+?>
+
